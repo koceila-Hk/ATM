@@ -6,7 +6,7 @@ import java.util.Scanner;
 // Class Main
 public class Main {               
 
-    private static double soldeEnBanque = 1000.0; // Solde initial en banque
+    private static double soldeEnBanque = 1000.0; 
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);    
@@ -61,7 +61,7 @@ public class Main {
             }
         } catch (Exception e) {
             System.out.println("Erreur lors de la saisie du montant. Assurez-vous d'entrer un nombre.");
-            scanner.nextLine();                                 // Nettoie la ligne incorrecte dans le scanner
+            scanner.nextLine();                                 
         }
     }
 
